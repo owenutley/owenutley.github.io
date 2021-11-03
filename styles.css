@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size:x-large;
+    font-size:x-large
 }
 
 .main{
@@ -12,13 +12,48 @@
 }
 
 .div1{
-    width: 100%;
+    width: 105%;
     height: 500px;
     background-color:rgb(0, 70, 70);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
 }
 
 .div2{
-    width: 100%;
+    width: 105%;
     height: 500px;
     background-color: rgb(90, 99, 150);
 }
+
+.heading{
+    color:white;
+    text-align: center;
+}
+
+.link{
+    background-color: black;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 25%;
+    /* border-top-left-radius: 0%; */
+    margin: 15px;
+}
+
+.ref{
+    color: white;
+    text-decoration: none;
+    font-size:larger;
+    margin: 40px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.my_pic{
+    width: 25%;
+    height: auto;
+    margin-left: 70%;
+}
+
