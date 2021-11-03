@@ -6,5 +6,5 @@
 }
 
 .page{
-    background-image: url("mountain_image.png");
+    background-image: "mountain_image.png";
 }
