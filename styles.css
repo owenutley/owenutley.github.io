@@ -12,16 +12,14 @@
 }
 
 .div1{
-    width: 105%;
+    width: 100%;
+    min-width: 1500px;
     height: 500px;
     background-color:rgb(0, 70, 70);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: right;
 }
 
 .div2{
-    width: 105%;
+    width:fit-content;
     height: 500px;
     background-color: rgb(90, 99, 150);
 }
@@ -33,11 +31,9 @@
 
 .link{
     background-color: black;
-    border-width: 5px;
-    border-color: white;
-    border-radius: 25%;
-    /* border-top-left-radius: 0%; */
+    border: 1px solid white;
     margin: 15px;
+    border-radius: 15%;
 }
 
 .ref{
@@ -52,8 +48,25 @@ h1{
 }
 
 .my_pic{
-    width: 25%;
+    width: 341px;
     height: auto;
-    margin-left: 70%;
+    float: left;
+    /* margin-top: -34px; */
+    border: 1px solid white;
 }
 
+#about_me{
+    font-size: 30px;
+    margin-right: 25px;
+    float: center;
+    color: white;
+}
+
+#text_box{
+    float: right;
+    width: 800px;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 80px;
+    min-width: 600px;
+}
