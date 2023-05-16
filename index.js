@@ -1,5 +1,0 @@
-
-
-makeNumber = () => {
-    return 10;
-}

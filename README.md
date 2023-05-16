@@ -1,6 +1,8 @@
 ### Hi there 👋
 
 <!--
+I am currently working on freshing up my web development skills.
+
 **owenutley/owenutley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
