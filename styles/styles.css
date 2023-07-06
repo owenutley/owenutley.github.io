@@ -1,0 +1,44 @@
+.navbar {
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.top-padding {
+    padding-top: 50px;
+}
+
+.back-gradient {
+    height: 100vh;
+    background-color: #ffffff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #d2eeee, #c3f4ad);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 73, 73);
+    color: white;
+    padding: 15px;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav > ul > li > a:hover {
+    background-color: rgb(59, 123, 123);
+}
