@@ -44,5 +44,26 @@ nav > ul > li > a:hover {
 }
 
 img {
-    height: 250px
+    height: 250px;
+    width: auto;
+}
+
+.scroll-lock {
+  height: 400px; /* Adjust the height as needed */
+  overflow-y: scroll;
+}
+
+.y-elements {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.scroll-snap {
+    scroll-snap-type: y mandatory;
+}
+
+.always-stop > p {
+    scroll-snap-stop: always;
+    scroll-snap-align: center;
 }

@@ -6,3 +6,18 @@ const script = () => {
     console.log(navbarHeight, " is the navbar height")
     
 }
+
+const container = document.querySelector('.scroll-lock');
+
+container.addEventListener('scroll', function() {
+  const scrollPosition = container.scrollTop;
+  
+  // Determine the positions where you want to lock scrolling
+  const lockPosition1 = 200; // Adjust the position as needed
+  const lockPosition2 = 500; // Adjust the position as needed
+  
+  // Lock scrolling when reaching the specified positions
+  if (scrollPosition >= lockPosition1 && scrollPosition <= lockPosition2) {
+    container.scrollTop = lockPosition1;
+  }
+});
