@@ -43,9 +43,12 @@ nav > ul > li > a:hover {
     background-color: rgb(59, 123, 123);
 }
 
-img {
-    height: 250px;
-    width: auto;
+img .size-1 {
+    width: 180px;
+}
+
+img .size-2 {
+    width: 360px;
 }
 
 .scroll-lock {
@@ -55,7 +58,6 @@ img {
 
 .y-elements {
     display: flex;
-    overflow: auto;
     flex-direction: column;
 }
 
@@ -63,7 +65,7 @@ img {
     scroll-snap-type: y mandatory;
 }
 
-.always-stop > p {
+.always-stop.child {
     scroll-snap-stop: always;
     scroll-snap-align: center;
 }
