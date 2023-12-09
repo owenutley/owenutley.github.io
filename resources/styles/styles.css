@@ -12,8 +12,7 @@
 
 .back-gradient {
     height: 100vh;
-    background-color: #ffffff; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, #d2eeee, #c3f4ad);
+    background-image: url("../images/sun_mon.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
