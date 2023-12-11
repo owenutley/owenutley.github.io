@@ -41,3 +41,8 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     background-color: rgb(59, 123, 123);
 }
+
+.background-solid-blue {
+    background-color: rgb(5, 15, 50);
+    color: rgb(160, 200, 210)
+}
