@@ -35,36 +35,9 @@ nav > ul > li {
 nav > ul > li > a {
     color: white;
     text-decoration: none;
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 nav > ul > li > a:hover {
     background-color: rgb(59, 123, 123);
-}
-
-.img-1 {
-    width: 500px;
-}
-
-.img-2 {
-    width: 244px;
-}
-
-.scroll-lock {
-  height: 400px; /* Adjust the height as needed */
-  overflow-y: scroll;
-}
-
-.y-elements {
-    display: flex;
-    flex-direction: column;
-}
-
-.scroll-snap {
-    scroll-snap-type: y mandatory;
-}
-
-.always-stop.child {
-    scroll-snap-stop: always;
-    scroll-snap-align: center;
 }
