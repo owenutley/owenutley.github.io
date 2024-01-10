@@ -19,13 +19,6 @@
     position: fixed;
 }
 
-.padding {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-}
-
 .back-gradient {
     height: 100vh;
     background-image: url("../images/sun_mon.png");
@@ -60,7 +53,14 @@ h1 {
     color: var(--color-4);
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
+    .padding {
+        padding-top: 40px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+
     .icon-1 {
         height: 120px;
         width: 120px;
@@ -83,7 +83,14 @@ h1 {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
+        .padding {
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
     .icon-1 {
         height: 45px;
         width: 45px;
