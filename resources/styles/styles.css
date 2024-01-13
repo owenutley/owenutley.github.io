@@ -4,11 +4,19 @@
     --color-3: rgb(190, 49, 68);
     --color-4: rgb(240, 89, 65);
     --color-5: rgb(253, 226, 204);
-    /* --color-1: rgb(32, 14, 58);
+    /*
+    --color-1: rgb(32, 14, 58);
     --color-2: rgb(56, 65, 157);
     --color-3: rgb(56, 135, 190);
     --color-4: rgb(82, 211, 216);
-    --color-5: rgb(208, 245, 253); */
+    --color-5: rgb(208, 245, 253);
+
+    --color-1: rgb(15, 15, 15);
+    --color-2: rgb(35, 45, 63);
+    --color-3: rgb(0, 91, 65);
+    --color-4: rgb(0, 129, 112);
+    --color-5: rgb(125, 218, 212);
+    */
 }
 
 .navbar {
@@ -38,6 +46,24 @@ nav > ul {
 
 nav > ul > li {
     float: left;
+}
+
+li > div {
+    border: 2px dashed var(--color-2);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black
+}
+
+li > div > div {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--color-2);
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 nav > ul > li > a:hover {
