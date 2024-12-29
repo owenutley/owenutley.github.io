@@ -10,9 +10,18 @@
 <body class="color-1 padding">
     <nav class="navbar">
         <ul>
-            <li><a href="/index.html">About</a></li>
-            <li><a href="/resources/templates/projects.html">Projects</a></li>
-            <li><a href="/resources/templates/contact.html">Contact</a></li>
+            <li><a href="../../index.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a>Styles</a>
+                <ul class="dropdown-content">
+                    <li id="redbtn">red</li>
+                    <li id="bluebtn">blue</li>
+                    <li id="greenbtn">green</li>
+                    <li id="otherbtn">random</li>
+                </ul>
+            </li>
         </ul>
     </nav>
     <h1>Projects</h1>
@@ -32,20 +41,7 @@
                 </p>
             <img>
         </div>
-        <div class="card">
-            <form>
-                <input type="checkbox" name="blue">
-                <label for="blue">blue</label>
-                <input type="checkbox" name="green">
-                <label for="green">green</label>
-                <input type="checkbox" name="yellow">
-                <label for="yellow">yellow</label>
-            </form>
-        </div>
     </main>
-    <footer>
-        <button id="redSt" class="color-change" onclick="toggleStyle()">new style</button>
-    </footer>
     <script src="../scripts/index.js"></script>
 </body>
 </html>

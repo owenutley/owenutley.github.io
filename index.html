@@ -9,10 +9,19 @@
 </head>
 <body class="color-1 padding">
     <nav class="navbar">
-        <ul>
-            <li><a href="/index.html">About</a></li>
-            <li><a href="/resources/templates/projects.html">Projects</a></li>
-            <li><a href="/resources/templates/contact.html">Contact</a></li>
+        <ul class="menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="resources/templates/projects.html">Projects</a></li>
+            <li><a href="resources/templates/contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a>Styles</a>
+                <ul class="dropdown-content">
+                    <li id="redbtn">red</li>
+                    <li id="bluebtn">blue</li>
+                    <li id="greenbtn">green</li>
+                    <li id="otherbtn">random</li>
+                </ul>
+            </li>
         </ul>
         <div class="settings-icon"><div></div></div>
     </nav>
@@ -48,14 +57,7 @@
         - Walter D. Wintle 
     </p>
     <hr>
-    <footer>
-        <div class="dropdown">
-            <button id="redbtn">red</button>
-            <button id="bluebtn">blue</button>
-            <button id="greenbtn">green</button>
-            <button id="otherbtn">random</button>
-        </div>
-    </footer>
+    <footer></footer>
     <script src="./resources/scripts/index.js"></script>
 </body>
 </html>
