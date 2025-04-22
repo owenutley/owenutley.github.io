@@ -1,0 +1,169 @@
+:root {
+    --color-1: rgb(34, 9, 44);
+    --color-2: rgb(135, 35, 65);
+    --color-3: rgb(190, 49, 68);
+    --color-4: rgb(240, 89, 65);
+    --color-5: rgb(253, 226, 204);
+    /*
+    --color-1: rgb(32, 14, 58);
+    --color-2: rgb(56, 65, 157);
+    --color-3: rgb(56, 135, 190);
+    --color-4: rgb(82, 211, 216);
+    --color-5: rgb(208, 245, 253);
+
+    --color-1: rgb(15, 15, 15);
+    --color-2: rgb(35, 45, 63);
+    --color-3: rgb(0, 91, 65);
+    --color-4: rgb(0, 129, 112);
+    --color-5: rgb(125, 218, 212);
+    */
+}
+
+.navbar {
+    overflow: visible;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-2);
+}
+
+.back-gradient {
+    height: 100vh;
+    background-image: url("../images/sun_mon.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    color: whitesmoke;
+    display: flex;
+}
+
+.menu {
+    position: relative;
+}
+
+div > div {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--color-2);
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+nav > ul > li > a:hover {
+    background-color: var(--color-3);
+    border-radius: 5px;
+}
+
+.color-1 {
+    background-color: var(--color-1);
+    color: whitesmoke;
+}
+
+h1 {
+    color: var(--color-4);
+}
+
+@media screen and (min-width: 768px) {
+    .padding {
+        padding-top: 40px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+
+    .icon-1 {
+        height: 120px;
+        width: 120px;
+        border-radius: 20%;
+        border: 2px var(--color-4) solid;
+        padding: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        background-color: var(--color-5);
+    }
+
+    nav > ul > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 30px;
+    }
+
+    nav > ul {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .padding {
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .icon-1 {
+        height: 45px;
+        width: 45px;
+        border-radius: 20%;
+        border: 2px var(--color-4) solid;
+        padding: 2px;
+        margin-right: 2px;
+        margin-left: 2px;
+        background-color: var(--color-5);
+    }
+
+    nav > ul > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 20px;
+    }
+
+    nav > ul {
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: var(--color-2);
+    width: 60px;
+    z-index: 1;
+    top: 28px;
+}
+
+.dropdown-content li {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+}
+
+.dropdown-content li:hover {
+    cursor: pointer;
+    background-color: var(--color-3);
+}
