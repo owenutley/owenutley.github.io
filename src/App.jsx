@@ -10,6 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navber />
+      <div className="nav-spacer"></div>
 
       <Routes>
         <Route path="/" element={<Home />} />
