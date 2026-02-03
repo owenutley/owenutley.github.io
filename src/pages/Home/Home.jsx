@@ -1,4 +1,4 @@
-import faceImg from "../assets/face-char.png";
+import faceImg from "../../assets/face-char.png";
 import "./Home.css";
 
 function Home() {
