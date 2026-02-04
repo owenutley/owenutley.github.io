@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #a8cbe8;
+    background-color: var(--secondary-color);
 }
 
 .nav-spacer {

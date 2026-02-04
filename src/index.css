@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #000814;
+  --secondary-color: #001D3D;
+  --tertiary-color: #003566;
+  --primary-accent-color: #FFC300;
+  --secondary-accent-color: #FFD60A;
+  --tertiary-accent-color: #fffbd8;
+
+}
+
+body {
+    color: var(--tertiary-accent-color);
+}
+
+button {
+    color: var(--primary-color);
+    background-color: var(--primary-accent-color);
+    border: 1px solid var(--primary-accent-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--secondary-accent-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+button:active {
+    background-color: var(--tertiary-accent-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
