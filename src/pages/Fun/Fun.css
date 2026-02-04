@@ -2,4 +2,7 @@
 
 button {
     margin: 15px 0;
+    height: 20px;
+    width: 155px;
+    font-size: 14px;
 }
