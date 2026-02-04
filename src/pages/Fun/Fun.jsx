@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { calculateInvestment, formatCurrency } from '../../utils/investmentCalculator';
+import './Fun.css';
 
 function Fun() {
     const [money, setMoney] = useState("");
@@ -17,7 +18,7 @@ function Fun() {
         <>
             <form onSubmit={handleSubmit}>
             <label>
-                How much money to invest?
+                <p>How much money to invest?</p>
                 <input
                 type="number"
                 value={money}
@@ -25,9 +26,9 @@ function Fun() {
                 required
                 />
             </label>
-
+            <br />
             <label>
-                How many years to invest?
+                <p>How many years to invest?</p>
                 <input
                 type="number"
                 value={years}
@@ -35,9 +36,9 @@ function Fun() {
                 required
                 />
             </label>
-
+            <br />
             <label>
-                Expected annual return rate (%):
+                <p>Expected annual return rate (%):</p>
                 <input
                 type="number"
                 value={rate}
@@ -45,7 +46,7 @@ function Fun() {
                 required
                 />
             </label>
-
+            <br />
             <button type="submit">Calculate Investment</button>
             </form>
 
