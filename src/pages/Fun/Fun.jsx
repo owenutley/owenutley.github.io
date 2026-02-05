@@ -51,7 +51,7 @@ function Fun() {
             </form>
 
             {total !== null && <p>Result: {formatCurrency(total)}</p>}
-        <main />
+        </main>
     );
 }
 
