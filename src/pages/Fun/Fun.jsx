@@ -15,7 +15,7 @@ function Fun() {
     };
 
     return (
-        <>
+        <main>
             <form onSubmit={handleSubmit}>
             <label>
                 <p>How much money to invest?</p>
@@ -51,7 +51,7 @@ function Fun() {
             </form>
 
             {total !== null && <p>Result: {formatCurrency(total)}</p>}
-        </>
+        <main />
     );
 }
 
